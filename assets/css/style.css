@@ -264,6 +264,23 @@ input[type=submit] {
 /*when screen width hits 768px*/
 
 @media (max-width: 768px){
+
+  .container {
+    max-width: 700px;
+  }
+
+  .main-section, .sidebar{
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .auth-image {
+    width: 55%;
+  }
+
+  p {
+    float: none;
+  }
   
 }
 
